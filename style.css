@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    background-color: bisque;
+}
+
+#naslov{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#upitnik{
+    background-color: bisque;
+    border: none;
+}
+
+#stats{
+    background-color: bisque;
+    border: none;
+}
+
+#reset{
+    background-color: bisque;
+    border: none;
+}
+
+#statipod{
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#tabela{
+    width: 27%;
+    margin: auto;
+}
+
+@media (max-width: 768px){
+    #tabela{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+#tabela td {
+    border: 3px solid black;
+    width: 20%;
+    text-align: center;
+    font-size: larger;
+}
+
+#tabela td::before {
+    content: "";
+    display: block;        
+    padding-top: 40%;
+}
+#tabela td::after {
+    content: "";
+    display: block;        
+    padding-top: 40%;
+}
+
+#tastatura{
+    position: relative;
+    margin: auto;
+}
+button{
+    font-size: large;
+}
+
+#statBar {
+    display: none; 
+    text-align: center;  
+}
